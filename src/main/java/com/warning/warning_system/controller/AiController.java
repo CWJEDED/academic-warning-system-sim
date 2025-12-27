@@ -15,8 +15,8 @@ import java.util.List;
 @RequestMapping("/ai")
 @CrossOrigin(origins = "*") // 允许前端跨域
 public class AiController {
-    private static final String API_KEY = "ALTAKsnXMcKp1QfF74VrU0nwlJ".trim();
-    private static final String SECRET_KEY = "d68745401520438bab7956a1ea6ff2cb".trim();
+    private static final String API_KEY = "YOUR_ API_KEY".trim();
+    private static final String SECRET_KEY = "YOUR_ SECRET_KEY".trim();
 
     // 注入数据库操作类，用于查询学生数据
     @Autowired
